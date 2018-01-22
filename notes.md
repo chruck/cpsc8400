@@ -3,7 +3,7 @@ CPSC 8400 - Design and Analysis of Algorithms
 Dr. Brian Dean
 Spring 2018
 
-(Ja&#772;s (Ja&#713;s) Eckard)
+(Ja&#0304;s Eckard)
 
 ---
 Lecture 1, Jan 11
@@ -19,6 +19,7 @@ Lecture 1, Jan 11
 - &rarr; algorithmsexplained.com
 - &rarr; Dr. Dean's papers
 - &rarr; log<sub>2</sub>1 billion = 30
+- &rarr; "Big O Notation"
 
 __algorithms__ - heart and soul of computing
 - math theory meets practice
@@ -64,4 +65,29 @@ Don't look up solutions from previous semesters
 "step" -N - what is it?
   operation
 
+### Empirical Performance Testing
+Just run it
 
+"average case" or "worst case"?
+
+scalability
+
+how get inputs?  &larr; may not actually be rep of what's in real
+world
+
+"sloppy"
+
+### Asymptotic Analysis
+CS usually concerned w/ "worst case" & scalability
+
+O(f(n)) - ("&leq;")
+  - "upper-bounded by constant times f(N) as N grows large"
+  - 17N<sup>2</sup> - 3N + 5 &rarr; O(N<sup>2</sup>)  "Order N squared"
+  - but loses information
+  - "high hidden constant"
+
+&omega;(N) - ("&greq;")
+  - asymptotic lower bound:  "at least N"
+
+&theta;(N) - ("=")
+  - both lower and upper

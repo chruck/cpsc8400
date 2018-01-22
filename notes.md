@@ -1,5 +1,5 @@
 CPSC 8400 - Design and Analysis of Algorithms
----
+===
 Dr. Brian Dean
 Spring 2018
 
@@ -7,14 +7,15 @@ Spring 2018
 Lecture 1, Jan 11
 ---
 
---> Probability theory
---> Amortized analysis
---> Recurrances
---> ( n )  "n choose 2"
+- &rarr; Probability theory
+- &rarr; Amortized analysis
+- &rarr; Recurrances
+- &rarr; ( n )  "n choose 2"
     ( 2 )
---> algorithmsexplained.com
+- &rarr; algorithmsexplained.com
+- &rarr; Dr. Dean's papers
 
-_algorithms_ - heart and soul of computing
+__algorithms__ - heart and soul of computing
 - math theory meets practice
 
 programming != algorithmic problem solving
@@ -36,14 +37,21 @@ collaborators should be listed
 - individual write up
 
 Proofs:  must be convincing
-- level of detail is _undefined_
+- level of detail is __undefined__
 
 Don't look up solutions from previous semesters
 
-_A Good Algorithm_
+### A Good Algorithm
 - always terminates
-- _correct_ output
+- __correct__ output
 - "close enough" sometimes fine
 - randomized alg fail, small probability
 
+- __efficient__
+  - fast (time)  &larr; most
+  - memory
+  - bandwidth
+  - power/head used
 
+- __simple__:  "elegant" to describe, understand, analyze
+  - debug

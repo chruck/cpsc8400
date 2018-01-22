@@ -3,6 +3,8 @@ CPSC 8400 - Design and Analysis of Algorithms
 Dr. Brian Dean
 Spring 2018
 
+(Ja&#772;s (Ja&#713;s) Eckard)
+
 ---
 Lecture 1, Jan 11
 ---

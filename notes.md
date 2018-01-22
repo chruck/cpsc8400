@@ -10,10 +10,13 @@ Lecture 1, Jan 11
 - &rarr; Probability theory
 - &rarr; Amortized analysis
 - &rarr; Recurrances
-- &rarr; ( n )  "n choose 2"
-    ( 2 )
+- &rarr; ( n )  "n choose 2" (binomial coefficient)
+         ( 2 )
+  - "n choose k" = n! / k!(n-k)! &rarr; number of combinations of
+  _k_-sets of _n_ elements
 - &rarr; algorithmsexplained.com
 - &rarr; Dr. Dean's papers
+- &rarr; log<sub>2</sub>1 billion = 30
 
 __algorithms__ - heart and soul of computing
 - math theory meets practice
@@ -55,3 +58,8 @@ Don't look up solutions from previous semesters
 
 - __simple__:  "elegant" to describe, understand, analyze
   - debug
+
+"step" -N - what is it?
+  operation
+
+

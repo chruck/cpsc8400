@@ -1,4 +1,4 @@
-1-1. 
+1-1.
 - store `v` - initializaton value
 - array of size `n`: `A[n]`
 
@@ -50,3 +50,11 @@ O(n) words`
                 - starting at `A[last]` of the new array, append to
                 linked list as described above
                 - set `last = i<sub>x</sub>`
+
+1-2.
+A[n]:
+
+op#|0|1|2|3|4
+A          |(0)|(1)|(1,0)|(1,1)|(1,0,0)|(1,0,1)|(1,1,0)|(1,1,1)|(1,0,0,0) |(1,0,0,1)|(1,0,1,0)|(1,0,1,1)|(1,1,0,0)|(1,1,0,1)|(1,1,1,0)|(1,1,1,1)|(1,0,0,0,0,)
+num toggled| 0 | 1 |  2  |  1  |   3   |   1   |   2   |   1   |    4 |    1    |    2    |    1    |    3    |    1    |    2    |    1    | 5
+cumulative | 0 | 1 |  3  |  4  |   7   |   8   |  10   |  11   |   15 |   16    |   18    |   19    |   22    |   23    |   25    |   26    | 31
